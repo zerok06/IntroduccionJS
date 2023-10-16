@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js04</title>
+</head>
+<body>
+    <script>
+        document.write('Operadores aritmeticos<br>')
+        var a=6 , b=2
+        c= a*b;
+        d= a/b;
+        e= a%b;
+        f= a+b;
+        document.write('a= '+ a + '<br>b= ' + b + '<br>c= ' + c);
+        document.write('<br>d= ' + d +'<br>e= ' + e + '<br>f='+f)
+        </script>
+        
+        <script>
+        document.write('<br>Operadores unarios ++ y -- <br>')
+        var a=3 , b=1
+        document.write('a= '+a+'<br>b= '+b+'<br>')
+        a++; b--
+        //se incrementa la variable a y se decrementa b
+        document.write('a= '+ a + '<br>b= ' + b)
+        </script>
+        
+        <script>
+        document.write("<br>Operadores de asignacion<br>");
+        num1 = 2; //asignación simple
+        document.write('Numero original--> '+num1+'<br>');
+        num1 += 4; // asignación con suma, en este caso se suma 4 al número num1
+        document.write('Numero mas cuatro (num1 += 4)-->'+num1+'<br>');
+        num1 -=1; // asignación con resta, en este caso se resta 1 al número num1
+        document.write('Numero menos uno (num1 -=1)-->'+num1+'<br>');
+        num1 %=2;// resto de la división del número por dos
+        document.write('Resto de dividir en dos (num1 %=2)-->'+num1+'<br>');
+        </script>
+        
+        <script>
+        document.write("<br>Operadores de incremento<br>");
+        a = 1;
+        document.write('a = 1<br>')
+        b = ++a;
+        document.write('(b = ++a) a--> '+a +'<br>b-->'+ b +'<br>---------<br>');
+        a = 1;
+        document.write('a = 1<br>')
+        c =a++;
+        document.write('(c = a++) a--> '+ a +'<br>c-->'+ c +' b-->'+b);
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js06</title>
+</head>
+<body>
+    <script>
+        a = false;
+        b = false;
+        _a = !a;
+        _b = !b;
+        document.write('<center><table border=2><caption><h2>Funcion AND</h2></caption>');
+        document.write('<tr><td>A</td><td>B</td><td>Y</td></tr><tr><td>');
+        //00
+        document.write(a +'</td><td>');
+        document.write(b +'</td><td>');
+        c = a&&b;
+        document.write(c +'</td></tr><tr><td>');
+        //0 1
+        document.write(a +'</td><td>');
+        document.write(_b +'</td><td>');
+        c = a&&_b;
+        document.write(c +'</td></tr><tr><td>');
+        //1 0
+        document.write(_a +'</td><td>');
+        document.write(b +'</td><td>');
+        c = _a&&b;
+        document.write(c +'</td></tr><tr><td>');
+        //1 1
+        document.write(_a +'</td><td>');
+        document.write(_b +'</td><td>');
+        c = _a&&_b;
+        document.write(c +'</td></tr>');
+        //fin de tabla
+        document.write('</table></center>');
+    </script>    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js05</title>
+</head>
+<body>
+    <script>
+        num1 = true;
+        document.write('Num1: '+num1+'<br>-------<br>');
+        num1 = !num1;
+        document.write('Negacion (num1 = !num1):'+num1+'<br><b>---Vuelvo num1 al valor original---</b><br>');
+        num1 = !num1;
+        num2 = true;
+        num3 = false;
+        document.write('Num1= '+num1+'<br>Num2='+num2+'<br>Num3= '+num3+'<br>--------<br>');
+        num4 = num1 && num2;
+        document.write('And con true (num4 = num1 && num2):'+num4+'<br>-------<br>');
+        num4 = num1 && num3;
+        document.write('And con false (num4 = num1 && num3):'+num4+'<br>-------<br>');
+        //or
+        num4 = num1 || num2;
+        document.write('OR dos true (num4 = num1 || num2):'+num4+'<br>-------<br>');
+        num4 = num1 || num3;
+        document.write('OR con false (num4 = num1 || num3):'+num4+'<br>--------<br>');
+        </script>
+        
+</body>
+</html>
